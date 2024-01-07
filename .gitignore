@@ -1,6 +1,6 @@
 # Local .terraform directories
 **/.terraform/*
-
+code_report.py
 # .tfstate files
 *.tfstate
 *.tfstate.*

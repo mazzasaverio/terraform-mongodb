@@ -1,0 +1,48 @@
+# ------------------------------ MONGO DB ATLAS ------------------------------ #
+
+mongo_atlas_org_id               = "mongo_atlas_org_id"
+mongo_atlas_project_name         = "new_project-atlas-v1"
+
+mongo_atlas_private_key  = "mongo_atlas_private_key"
+mongo_atlas_public_key   = "mongo_atlas_public_key"
+
+mongo_atlas_db_username           = "mongo_atlas_db_username"
+mongo_atlas_db_password           = "mongo_atlas_db_password"
+
+mongo_atlas_cidr_block = "192.168.192.0/18" // Replace with a suitable value as per your network architecture
+# atlas_org_id               = "6579b485314b6320b1d89c81"
+# atlas_project_name         = "esg-project-v8"
+# environment                = "dev"
+mongo_cluster_instance_size_name = "M10"
+# cloud_provider             = "GCP"
+mongo_atlas_region               = "WESTERN_EUROPE"
+# mongodb_version            = "6.0"
+
+# my_ip_cidr_block           = "79.17.206.189/32"
+
+# ------------------------------- GOOGLE CLOUD ------------------------------- #
+
+gcp_credentials_file              = "~/terraform-v9.json"
+gcp_project_id                    = "project-gcp-v1"
+gcp_region                        = "us-central1"
+gcp_zone                          = "us-central1-c"
+gcp_service_account_email         = "name-service-account@project-gcp-v1.iam.gserviceaccount.com"
+
+gcp_bucket_name                   = "bucket-gcp-v1"
+gcp_network_name                  = "default"
+
+gcp_pubsub_topic_name             = "topic-gcp-v1"
+
+
+# ------------------------------- CONFLUENT CLOUD ---------------------------- #
+
+confluent_cloud_api_key     = "confluent_cloud_api_key"
+confluent_cloud_api_secret  = "confluent_cloud_api_secret"
+
+confluent_environment_name  = "Development" 
+
+confluent_cluster_name      = "basic_kafka_cluster"
+confluent_availability      = "SINGLE_ZONE" 
+confluent_cloud             = "GCP" 
+
+confluent_kafka_topic      = "pdf_upload_2"
