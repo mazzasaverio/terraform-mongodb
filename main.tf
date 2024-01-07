@@ -29,6 +29,8 @@ module "mongodb_atlas" {
 
   mongo_atlas_region               = var.mongo_atlas_region
   mongo_cluster_instance_size_name = var.mongo_cluster_instance_size_name
+  mongo_db_name                    = var.mongo_db_name
+
 
 }
 

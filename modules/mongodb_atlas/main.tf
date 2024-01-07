@@ -41,6 +41,6 @@ resource "mongodbatlas_database_user" "db-user" {
   auth_database_name = "admin"
   roles {
     role_name     = "readWrite"
-    database_name = "${var.mongo_atlas_project_name}-db"
+    database_name = var.mongo_db_name
   }
 }

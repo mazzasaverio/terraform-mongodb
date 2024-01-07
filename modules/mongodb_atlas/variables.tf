@@ -30,3 +30,8 @@ variable "mongo_cluster_instance_size_name" {
   type        = string
   default     = "M0" # Free tier size
 }
+variable "mongo_db_name" {
+  description = "MongoDB Database Name"
+  type        = string
+  default     = "test"
+}
